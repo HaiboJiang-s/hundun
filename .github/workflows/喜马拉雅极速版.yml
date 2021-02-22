@@ -26,7 +26,7 @@ jobs:
         # xmly_speed.py目录自己修改
         run: python3 quanx/xmly_speed.py
         env:
-            XMLY_SPEED_COOKIE: ${{ 1&_device=iPhone&D2AAA611-BB18-4691-88B0-9D80371B9606&2.1.3; XUM=D2AAA611-BB18-4691-88B0-9D80371B9606; idfa=00000000-0000-0000-0000-000000000000; device_model=iPhone 7 Plus; c-oper=%E6%9C%AA%E7%9F%A5; net-mode=WIFI; ip=10.20.211.177;  }}  #必须 cookie 多账号 \n 分割
+            XMLY_SPEED_COOKIE: ${{1&_device=iPhone&D2AAA611-BB18-4691-88B0-9D80371B9606&2.1.3; XUM=D2AAA611-BB18-4691-88B0-9D80371B9606; idfa=00000000-0000-0000-0000-000000000000; device_model=iPhone 7 Plus; c-oper=%E6%9C%AA%E7%9F%A5; net-mode=WIFI; ip=10.20.211.177;}}  #必须 cookie 多账号 \n 分割
             AUTO_TAKE_OUT: ${{ secrets.AUTO_TAKE_OUT }}  #非必须 是否自动提现支付宝20
             BARK: ${{ secrets.BARK }}  #非必须 bark通知
             SCKEY: ${{ secrets.SCKEY }}  #非必须 server酱通知
