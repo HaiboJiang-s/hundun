@@ -1,8 +1,6 @@
 name: 喜马拉雅极速版
 
 on:
-  push:
-  push:
   schedule:
     - cron: '*/30 * * * *'
   watch:
